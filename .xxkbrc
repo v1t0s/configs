@@ -1,0 +1,25 @@
+# цвета иконки раскладки и шрифт
+XXkb.mainwindow.label.background: #eaeaea
+XXkb.mainwindow.label.foreground: black
+XXkb.mainwindow.label.font: -misc-*-r-*-13-*
+
+# надписи на иконке
+XXkb*label.text.1: En
+XXkb*label.text.2: Ru
+
+# тип главного окна
+XXkb.mainwindow.type: tray
+XXkb.mainwindow.label.enable: yes
+# показывать на главном окне раскладку
+XXkb.mainwindow.enable: yes
+# размер иконки раскладки
+XXkb.mainwindow.geometry: 20×20+0+0
+
+# отслеживать окна, найденые после старта программы
+XXkb.controls.add_when_start: yes
+# отслеживать окна, созданные во время работы программы
+XXkb.controls.add_when_create: yes
+# при убирании фокуса с окна сбрасывать раскладку на дефолтную
+XXkb.controls.focusout: no
+# используем только две раскладки
+XXkb.controls.two_state: yes
